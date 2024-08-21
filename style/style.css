@@ -1,0 +1,31 @@
+
+/*
+    creamos variables de tipo globlal para poder usarlas en los aspectos mas
+    repetitvos que hayan en el codigo para poder cambiarlas con facilidad mas adelante 
+*/
+:root{
+    --primary-color: #868e96;
+    --second-color: #0a3871;
+    --third-color: #e5e5e5;
+    --hover-color: #ced4da;
+
+    --typing-text: ;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--third-color);
+    box-sizing: border-box;
+}
+
+.main_index{
+    display: flex;
+    justify-content: flex-start;
+}
+
