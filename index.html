@@ -11,12 +11,21 @@
         <img class="header_image" src="./assets/Logo.png" alt="logo">
     </header>
     <main class="main_index">
-        <section class="section">
-            <p class="section_input">Ingresa el texto aqui</p>
-            <input class="text_input" type="text">
-            <button class="button_Encrip">Encriptar</button>
-            <button class="button_Unencrip">Desencriptar</button>
-            <textarea class="text-encrip" name="textarea" disabled="disabled">su texto encriptado</textarea>
+        <section class="section_input">
+            <textarea class="input_text" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="div_information">
+                <h6 class="information">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="buttons_input">
+            <button class="btn_Encrip">Encriptar</button>
+            <button class="btn_Unencrip">Desencriptar</button>
+            </div>
+        </section>
+        <section class="section_output">
+            <textarea class="text_encrip" cols="20" rows="10"></textarea>
+            <div class="button_output">
+                <button class="btn_copy">Copiar</button>
+            </div>
         </section>
     </main>
     <footer>
