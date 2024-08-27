@@ -53,3 +53,15 @@ function unEncriptation(stringunEncriptada) {
     //retornamos los hechos
     return stringunEncriptada;
 }
+
+//creamos la funcion de copiar usando la nevegacion del portapapeles para poder copiar lo que hay en el
+function btnCopy() {
+    const textToCopy = document.getElementById('result').value;
+    navigator.clipboard.writeText(textToCopy)
+      .then(() => {
+        alert('Texto copiado al portapapeles');
+      })
+      .catch(err => {
+        console.error('Error al copiar al portapapeles:', err);
+      });
+}

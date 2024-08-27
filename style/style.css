@@ -148,20 +148,3 @@
 .redirection_image{
     background-color: var(--primary-color);
 }
-
-
-/*@media (max-width: 1200px){
-    
-    .header_image{
-        padding: 5%;
-    }
-    
-    .main_index{
-        flex-direction: column-reverse;
-        padding: 2%;
-    }
-
-    .text_encrip{
-        flex-direction: column-reverse;
-    }
-} */
